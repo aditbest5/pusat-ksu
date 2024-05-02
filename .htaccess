@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /PusatKSU
+
+RewriteRule ^about$ about.html [L]
+RewriteRule ^services$ product.html [L]
