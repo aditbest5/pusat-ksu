@@ -1,5 +1,10 @@
 RewriteEngine On
-RewriteBase /PusatKSU
+RewriteBase /pusat-ksu
 
 RewriteRule ^about$ about.html [L]
 RewriteRule ^services$ product.html [L]
+RewriteRule ^$ index.html [L]
+RewriteRule ^join$ contact.html [L]
+RewriteRule ^berita-dan-acara$ berita.html [L]
+RewriteRule ^informasi-keuangan$ informasi_keuangan.html [L]
+
